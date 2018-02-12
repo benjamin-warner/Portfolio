@@ -11,7 +11,7 @@ new Vue({
 	template: `
 		<div id="main">
 
-	    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+	    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
 	      <router-link to="/" class="navbar-brand">Home</router-link>
 	     
 	      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
