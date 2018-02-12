@@ -9,8 +9,21 @@ Vue.config.productionTip = false
 new Vue({
 	router: Router,
 	template: `
-		<div id="app">
-			<router-view> </router-view>
+		<div id="main">
+
+	    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+	      <router-link to="/" class="navbar-brand">Home</router-link>
+	     
+	      <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+	        <ul class="navbar-nav mr-auto">
+	          <li class="nav-item active">
+	            <router-link to="/journal" class="nav-link">Journal</router-link>
+	          </li>
+	        </ul>
+	      </div>
+
+	    </nav>
+			<router-view></router-view>
 		</div>
 	`,
-}).$mount('#app')
+}).$mount('#portfolio')
