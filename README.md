@@ -4,4 +4,6 @@
 
 That's all folks. Other than being proof I can use git, this repo is just for me to organize the project and learn to build cool stuff in web with Javascript, CSS, HTML and whatever fun derivations of those that I discover!
 
-It will be live [Here](https://benjamin-warner.github.io/Portfolio/) on github pages once it's decent enough to toss up on the W.W.W.
+It will be live [here](https://benjamin-warner.github.io/Portfolio/) on github pages once it's decent enough to toss up on the W.W.W.
+
+Trello board [here](https://trello.com/b/V7NnlquJ/digital-resume), but again *really* only for me. However I suppose it serves as a live example of my understanding/affinity for kanban and agile. *Kinda werid being the product owner for once...*
