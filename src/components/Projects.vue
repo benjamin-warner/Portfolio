@@ -1,6 +1,6 @@
 <template>
 
-	<div id="Journal">
+	<div id="Projects">
 		<h1> {{ title }}</h1>
 	</div>
 
@@ -9,10 +9,10 @@
 <script>
 
 export default{
-	name: 'Journal',
+	name: 'Projects',
 	data(){
 		return {
-			title: 'Hello Journal'
+			title: 'Hello Projects'
 		}
 	}
 }
