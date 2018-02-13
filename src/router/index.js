@@ -14,7 +14,7 @@ export default new Router({
     },
     
     {
-    	path: '/journal',
+    	path: '/Journal',
     	name: "Journal",
     	component: Journal
     }
