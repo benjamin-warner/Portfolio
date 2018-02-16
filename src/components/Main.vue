@@ -3,13 +3,11 @@
 	<div id="Main" class="root">
 
 	  <nav class="navbar">
-  		<span>
-		    <router-link to="/" class="navbar-home">Home</router-link>
+	    <router-link to="/" class="navbar-home">Home</router-link>
 
-				<router-link to="/Journal" class="navbar-link">Journal</router-link>
+			<router-link to="/Journal" class="navbar-link">Journal</router-link>
 
-				<router-link to="/Projects" class="navbar-link">Projects</router-link>
-			</span>
+			<router-link to="/Projects" class="navbar-link">Projects</router-link>
 	  </nav>
 
 		<router-view></router-view>
@@ -38,18 +36,39 @@
 
 <style>
 
+	body{
+		margin: 0;
+	}
+
 	.navbar {
-		position: absolute;
-		top: 0; left: 0; right: 0;
 		padding: 1%;
-		border: 1%;
 		background: #000000;
 	}
+
 	.navbar-home {
 		font-size: 24pt;
+		font-family: Arial, Helvetica, sans-serif;
+		-webkit-font-smoothing: antialiased;
+		text-decoration: none;
+		color: #c4c4c4;
 	}
+
+	.navbar-home:hover{
+		color: #ffffff;
+	}
+
 	.navbar-link {
-		font-size: 24pt;
+		height: auto;
+		padding: 1% 1%;
+		font-size: 18pt;
+		font-family: Arial, Helvetica, sans-serif;
+		-webkit-font-smoothing: antialiased;
+		text-decoration: none;
+		color: #c4c4c4;
+	}
+
+	.navbar-link:hover{
+		color: #ffffff;
 	}
 
 </style>
