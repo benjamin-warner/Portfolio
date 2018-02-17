@@ -1,6 +1,6 @@
 <template>
 
-	<div id="home">
+	<div id="home" class="home-container">
 		<h1> {{ title }}</h1>
 	</div>
 
@@ -21,5 +21,11 @@ export default{
 
 
 <style>
+
+.home-container{
+	position: absolute;
+	margin-top: 8%;
+	top: 0; left: 0; right: 0;
+}
 
 </style>
