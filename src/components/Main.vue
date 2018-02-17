@@ -1,6 +1,6 @@
 <template>
 
-	<div id="Main" class="root">
+	<div id="Main">
 
 	  <nav class="navbar">
 	    <router-link to="/" class="navbar-home">Home</router-link>
@@ -40,6 +40,11 @@
 		margin: 0;
 	}
 
+	#Main{
+		font-family: Arial, Helvetica, sans-serif;
+		-webkit-font-smoothing: antialiased;
+	}
+
 	.navbar {
 		padding: 1%;
 		background: #000000;
@@ -47,8 +52,6 @@
 
 	.navbar-home {
 		font-size: 24pt;
-		font-family: Arial, Helvetica, sans-serif;
-		-webkit-font-smoothing: antialiased;
 		text-decoration: none;
 		color: #c4c4c4;
 	}
@@ -61,8 +64,6 @@
 		height: auto;
 		padding: 1% 1%;
 		font-size: 18pt;
-		font-family: Arial, Helvetica, sans-serif;
-		-webkit-font-smoothing: antialiased;
 		text-decoration: none;
 		color: #c4c4c4;
 	}
