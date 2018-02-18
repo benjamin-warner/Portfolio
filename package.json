@@ -12,6 +12,8 @@
     "build": "node build/build.js"
   },
   "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-gh-pages": "^0.5.4",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
