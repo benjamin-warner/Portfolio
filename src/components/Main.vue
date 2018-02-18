@@ -45,7 +45,8 @@
 	}
 
 	.navbar {
-		padding: 1%;
+		padding: 10px;
+		width: 100%;
 		background: #000000;
 	}
 

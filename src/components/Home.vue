@@ -1,10 +1,14 @@
 <template>
 
 	<div id="home" class="home-container">
-		<span>
-			<img class="profile-image" src="../assets/profile.jpg" alt="Photo of Ben"/>
-			Some text.
-		</span>
+		<div class="info-container">
+			<p>
+				<img class="profile-image" src="../assets/profile.jpg" alt="Photo of Ben" align="left" />
+				Benjamin Warner
+				Github : <a href="https://www.github.com/benjamin-warner">Github</a><br>
+				Email : benjaminnwarner at gmail dot com
+			</p>
+		</div>
 	</div>
 
 </template>
@@ -24,16 +28,28 @@ export default{
 <style>
 
 .home-container{
-	position: absolute;
-	margin-top: 8%;
-	padding-left: 2%; padding-right: 2%;
-	top: 0; left: 0; right: 0;
+  display: table;
+  position: absolute;
+  height: 70%;
+  width: 100%;
+}
+
+.info-container{
+  display: table-cell;
+  vertical-align: middle;
+}
+
+p{
+ 	margin-left: auto;
+  margin-right: auto;
+  width: 80%;
 }
 
 .profile-image{
-	width: 20%;
-	height: 20%;
+	width: 256px;
+	height: 256px;
 	border-radius: 50%;
+	margin: auto;
 }
 
 </style>
