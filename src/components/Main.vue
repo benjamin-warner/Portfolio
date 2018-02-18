@@ -3,7 +3,7 @@
 	<div id="Main">
 
 	  <nav class="navbar">
-	    <router-link to="/" class="navbar-home">Home</router-link>
+	    <router-link to="/" class="navbar-home" exact>Home</router-link>
 
 			<router-link to="/Journal" class="navbar-link">Journal</router-link>
 
@@ -23,7 +23,6 @@
 
 		data(){
 			return {
-					routes : [],
 			}
 		},
 
@@ -53,7 +52,11 @@
 	.navbar-home {
 		font-size: 24pt;
 		text-decoration: none;
-		color: #c4c4c4;
+		color: #606060;
+	}
+
+	nav .router-link-active {
+		color: #ffffff;
 	}
 
 	.navbar-home:hover{
@@ -65,7 +68,7 @@
 		padding: 1% 1%;
 		font-size: 18pt;
 		text-decoration: none;
-		color: #c4c4c4;
+		color: #606060;
 	}
 
 	.navbar-link:hover{
