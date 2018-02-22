@@ -1,15 +1,10 @@
 <template>
 
 	<div id="home" class="home-container">
-		<div class="profile">
-			<div class="profile-info">
-				<img class="profile-image" src="../assets/profile.jpg" alt="Photo of Ben" align="left" />
-				<div class="profile-text">
-					Benjamin Warner<br>
-					Github : <a href="https://www.github.com/benjamin-warner">Github</a><br>
-					Email : benjaminnwarner at gmail dot com
-				</div>
-			</div>
+		<div class="profile-info">
+			<img class="profile-image" src="../assets/derp.jpg" alt="Photo of Ben" align="left" />
+				Benjamin Warner<br>
+				Github : <a href="https://www.github.com/benjamin-warner">Github</a>
 		</div>
 	</div>
 
@@ -30,42 +25,29 @@ export default{
 <style>
 
 .home-container{
-  display: table;
-  position: absolute;
-  height: 70%;
-  width: 100%;
+	width: 100%;
+	margin-top: 150px;
 }
 
-.profile{
-  display: table-cell;
-  vertical-align: middle;
-}
-
-@media screen and (max-width: 600px){
+@media screen and (max-width: 400px){
 	.profile-info{
+	  width: 200px;
+	  margin-right: auto;
 	  margin-left: auto;
-	  margin-right: auto; 
+	}
+}
+
+@media screen and (min-width: 401px){
+	.profile-info{
 	  width: 400px;
-	}
-}
-
-@media screen and (min-width: 600px){
-	.profile-info{
 	  margin-left: auto;
-	  margin-right: auto; 
-	  width: 600px;
+	  margin-right: auto;
 	}
-}
-
-.profile-text{
-	width: 300px;
-	height: 300px;
-	margin: auto;
 }
 
 .profile-image{
-	width: 300px;
-	height: 300px;
+	width: 200px;
+	height: 200px;
 	border-radius: 50%;
 }
 
